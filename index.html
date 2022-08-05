@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive menu</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav class="adaptive">
+
+    <ul class="list">
+      <li class="list__item"><a class="list__link" href="./index.html">first point</a></li>
+      <li class="list__item"><a class="list__link" href="./index.html">second point</a></li>
+      <li class="list__item"><a class="list__link" href="./index.html">third point</a></li>
+      <li class="list__item"><a class="list__link" href="./index.html">fourth point</a></li>
+      <li class="list__item"><a class="list__link" href="./index.html">fifth point</a>
+        <ul class="submenu">
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu first point</a></li>
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu second point</a></li>
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu third point</a></li>
+        </ul>
+      </li>
+      <li class="list__item"><a class="list__link" href="./index.html">sixth point</a></li>
+      <li class="list__item"><a class="list__link" href="./index.html">seventh point</a>
+        <ul class="submenu">
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu first point</a></li>
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu second point</a></li>
+          <li class="submenu__item"><a class="list__link" href="./index.html">Submenu third point</a></li>
+        </ul>
+      </li>
+
+      <li class="list__item list__item_adaptive">
+        <a class="list__link" href="#">&#10010;</a>
+        <ul class="submenu-adaptive"></ul>
+      </li>
+    </ul>
+
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
